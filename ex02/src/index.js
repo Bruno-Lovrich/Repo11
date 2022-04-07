@@ -8,6 +8,6 @@ function useMethods(str) {
   return { myReverse, countCharacters };
 }
 
-console.log(useMethods(myStr));
+useMethods(myStr);
 
 module.exports = useMethods;
